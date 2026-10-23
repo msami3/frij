@@ -1,0 +1,9 @@
+// Shared build settings for the Frij app target.
+// Per-developer values (bundle ID, team, Google client) live in Secrets.xcconfig,
+// which is gitignored. Copy Secrets.example.xcconfig to get started.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.frij.app
+DEVELOPMENT_TEAM =
+GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.REPLACE_ME
+
+#include? "Secrets.xcconfig"
