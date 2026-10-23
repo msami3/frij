@@ -60,3 +60,11 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Frij
+# The Xcode project is generated from project.yml with XcodeGen.
+*.xcodeproj
+# Per-developer Firebase / signing config. See README.
+Frij/GoogleService-Info.plist
+Config/Secrets.xcconfig
+.DS_Store
